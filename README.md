@@ -9,36 +9,38 @@ Welcome to my Flutter-based Portfolio App! This application serves as a digital 
 ## Screenshots
 
 Here are some snapshots of the app:
+- <img width="1440" alt="Screenshot 2023-12-22 at 9 40 43 PM" src=<img width="1440" alt="Screenshot 2023-12-22 at 9 40 37 PM" src="https://github.com/Dibek1910/Portfolio_App/assets/121224688/2789b0ac-097b-4558-bd55-1062cd32e56d">
+"https://github.com/Dibek1910/Portfolio_App/assets/121224688/7333639d-d87c-4dbd-a9d5-ca0fc230247a">
+- ![Uploading Screenshot 2023-12-22 at 9.40.37 PM.png…]()
+- <img width="1440" alt="Screenshot 2023-12-22 at 9 40 46 PM" src="https://github.com/Dibek1910/Portfolio_App/assets/121224688/fbe5e685-05e5-4e79-a358-866a235f6eef">
+- <img width="1440" alt="Screenshot 2023-12-22 at 9 40 49 PM" src="https://github.com/Dibek1910/Portfolio_App/assets/121224688/39f39cb2-e760-407f-9e61-267f023918a5">
 
-### Home Screen
-
-![Home Screen](/images/home_screen.png)
-
-### Projects Screen
-
-![Projects Screen](/images/projects_screen.png)
-
-### Skills Screen
-
-![Skills Screen](/images/skills_screen.png)
-
-### Contact Screen
-
-![Contact Screen](/images/contact_screen.png)
 
 ## Features
 
-- **Home Screen:** Introduce yourself and provide a brief overview of your skills and expertise.
+- **About Me Screen:** Learn more about my background, interests, and aspirations.
 
-- **Projects Screen:** Showcase your projects with detailed information, including project descriptions, technologies used, and links to GitHub repositories or live demos.
+- **Education Screen:** Discover details about my educational journey and academic achievements.
 
-- **Skills Screen:** Highlight your technical skills and proficiency in various programming languages, frameworks, and tools.
+- **Skills Screen:** Explore my technical and professional skills.
 
-- **Contact Screen:** Provide contact information and links to your social media profiles. Make it easy for potential collaborators or employers to reach out.
+- **Certifications Screen:** Showcase my certifications and qualifications.
 
-## Getting Started
+- **Projects Screen:** Highlight significant projects I've worked on, including descriptions, technologies used, and GitHub links.
 
-1. **Clone the Repository:**
+- **Social Media Screen:** Connect with me on various social media platforms.
 
-   ```bash
-   git clone https://github.com/your-username/portfolio-app.git
+- **Contact Screen:** Find ways to reach out to me, whether for collaboration, job opportunities, or just to say hello.
+
+## Contributing
+
+If you have any suggestions, improvements, or would like to report a bug, feel free to open an issue or create a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+## Acknowledgments
+
+** Thanks to the Flutter community for providing valuable resources and inspiration.
+** Special thanks to OpenAI for the amazing language model that assisted in creating this README.
