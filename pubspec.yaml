@@ -1,0 +1,33 @@
+name: portfolio_app
+description: A new Flutter project.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.1
+  cupertino_icons: ^1.0.2
+  url_launcher: ^6.1.11
+  font_awesome_flutter: ^10.4.0
+  animated_text_kit: ^4.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - images/1000154880.JPEG
+    - images/1000154861.JPEG
+
