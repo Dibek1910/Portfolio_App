@@ -11,7 +11,7 @@ Welcome to my Flutter-based Portfolio App! This application serves as a digital 
 Here are some snapshots of the app:
 - <img width="1440" alt="Screenshot 2023-12-22 at 9 40 43 PM" src=<img width="1440" alt="Screenshot 2023-12-22 at 9 40 37 PM" src="https://github.com/Dibek1910/Portfolio_App/assets/121224688/2789b0ac-097b-4558-bd55-1062cd32e56d">
 "https://github.com/Dibek1910/Portfolio_App/assets/121224688/7333639d-d87c-4dbd-a9d5-ca0fc230247a">
-- ![Uploading Screenshot 2023-12-22 at 9.40.37 PM.png…]()
+- <img width="1440" alt="Screenshot 2023-12-22 at 9 40 37 PM" src="https://github.com/Dibek1910/Portfolio_App/assets/121224688/c1c17111-dc41-44b3-80cc-d3a814f2854f">
 - <img width="1440" alt="Screenshot 2023-12-22 at 9 40 46 PM" src="https://github.com/Dibek1910/Portfolio_App/assets/121224688/fbe5e685-05e5-4e79-a358-866a235f6eef">
 - <img width="1440" alt="Screenshot 2023-12-22 at 9 40 49 PM" src="https://github.com/Dibek1910/Portfolio_App/assets/121224688/39f39cb2-e760-407f-9e61-267f023918a5">
 
