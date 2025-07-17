@@ -32,24 +32,12 @@ class ProfileHeader extends StatelessWidget {
           SizedBox(height: 16),
           Text(
             data.name,
-            style: TextStyle(
-              fontSize: 24,
-              fontWeight: FontWeight.bold,
-            ),
+            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
           ),
           SizedBox(height: 8),
-          Text(
-            data.email,
-            style: TextStyle(fontSize: 18),
-          ),
+          Text(data.email, style: TextStyle(fontSize: 18)),
           SizedBox(height: 8),
-          Text(
-            data.title,
-            style: TextStyle(
-              fontSize: 18,
-              color: Colors.grey,
-            ),
-          ),
+          Text(data.title, style: TextStyle(fontSize: 18, color: Colors.grey)),
         ],
       ),
     );

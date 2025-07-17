@@ -16,6 +16,8 @@ dependencies:
   provider: ^6.1.5
   url_launcher: ^6.3.2
   font_awesome_flutter: ^10.8.0
+  shared_preferences: ^2.5.3
+  google_fonts: ^6.2.1
 
 dev_dependencies:
   flutter_test:

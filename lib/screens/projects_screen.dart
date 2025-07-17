@@ -10,9 +10,7 @@ class ProjectsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Projects'),
-      ),
+      appBar: AppBar(title: Text('Projects')),
       body: ListView.builder(
         itemCount: data.projects.length,
         itemBuilder: (context, index) {

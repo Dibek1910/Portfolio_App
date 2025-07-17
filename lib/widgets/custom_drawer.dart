@@ -15,9 +15,7 @@ class CustomDrawer extends StatelessWidget {
         padding: EdgeInsets.zero,
         children: [
           DrawerHeader(
-            decoration: BoxDecoration(
-              color: Theme.of(context).primaryColor,
-            ),
+            decoration: BoxDecoration(color: Theme.of(context).primaryColor),
             child: Text(
               'Menu',
               style: TextStyle(
@@ -37,8 +35,10 @@ class CustomDrawer extends StatelessWidget {
             title: Text('About'),
             onTap: () {
               Navigator.pop(context);
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => AboutScreen()));
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => AboutScreen()),
+              );
             },
           ),
           ListTile(
@@ -46,8 +46,10 @@ class CustomDrawer extends StatelessWidget {
             title: Text('Education'),
             onTap: () {
               Navigator.pop(context);
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => EducationScreen()));
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => EducationScreen()),
+              );
             },
           ),
           ListTile(
@@ -55,8 +57,10 @@ class CustomDrawer extends StatelessWidget {
             title: Text('Skills'),
             onTap: () {
               Navigator.pop(context);
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => SkillsScreen()));
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => SkillsScreen()),
+              );
             },
           ),
           ListTile(
@@ -64,8 +68,10 @@ class CustomDrawer extends StatelessWidget {
             title: Text('Projects'),
             onTap: () {
               Navigator.pop(context);
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => ProjectsScreen()));
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => ProjectsScreen()),
+              );
             },
           ),
           ListTile(
@@ -74,9 +80,9 @@ class CustomDrawer extends StatelessWidget {
             onTap: () {
               Navigator.pop(context);
               Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                      builder: (context) => CertificationsScreen()));
+                context,
+                MaterialPageRoute(builder: (context) => CertificationsScreen()),
+              );
             },
           ),
           ListTile(
@@ -84,8 +90,10 @@ class CustomDrawer extends StatelessWidget {
             title: Text('Social Media'),
             onTap: () {
               Navigator.pop(context);
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => SocialMediaScreen()));
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => SocialMediaScreen()),
+              );
             },
           ),
           ListTile(
@@ -93,8 +101,10 @@ class CustomDrawer extends StatelessWidget {
             title: Text('Contact'),
             onTap: () {
               Navigator.pop(context);
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => ContactScreen()));
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => ContactScreen()),
+              );
             },
           ),
         ],

@@ -25,19 +25,16 @@ class _ContactScreenState extends State<ContactScreen> {
 
   void _submitForm() {
     if (_formKey.currentState!.validate()) {
-      // Process the form data (e.g., send an email, save to database, etc.)
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Message sent successfully!')),
-      );
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(SnackBar(content: Text('Message sent successfully!')));
     }
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Contact'),
-      ),
+      appBar: AppBar(title: Text('Contact')),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(16),
@@ -69,7 +66,7 @@ class _ContactScreenState extends State<ContactScreen> {
                     if (value == null || value.isEmpty) {
                       return 'Please enter your email';
                     }
-                    // You can add more sophisticated email validation here
+
                     return null;
                   },
                 ),
@@ -97,10 +94,7 @@ class _ContactScreenState extends State<ContactScreen> {
                   },
                 ),
                 SizedBox(height: 24),
-                ElevatedButton(
-                  onPressed: _submitForm,
-                  child: Text('Submit'),
-                ),
+                ElevatedButton(onPressed: _submitForm, child: Text('Submit')),
               ],
             ),
           ),

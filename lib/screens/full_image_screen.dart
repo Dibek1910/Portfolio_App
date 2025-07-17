@@ -6,9 +6,7 @@ class FullImageScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Profile Picture'),
-      ),
+      appBar: AppBar(title: const Text('Profile Picture')),
       body: Center(
         child: Hero(
           tag: 'profile_image',

@@ -14,10 +14,7 @@ class SectionList extends StatelessWidget {
         SectionTitle(title: 'About Me'),
         Padding(
           padding: const EdgeInsets.all(16.0),
-          child: Text(
-            data.aboutMe,
-            style: TextStyle(fontSize: 16),
-          ),
+          child: Text(data.aboutMe, style: TextStyle(fontSize: 16)),
         ),
         SectionTitle(title: 'Skills'),
         Padding(
@@ -25,8 +22,9 @@ class SectionList extends StatelessWidget {
           child: Wrap(
             spacing: 8.0,
             runSpacing: 4.0,
-            children:
-                data.skills.map((skill) => Chip(label: Text(skill))).toList(),
+            children: data.skills
+                .map((skill) => Chip(label: Text(skill)))
+                .toList(),
           ),
         ),
         SectionTitle(title: 'Education'),
@@ -50,49 +48,49 @@ class SectionList extends StatelessWidget {
         SectionTitle(title: 'Projects'),
         Column(
           children: data.projects
-              .map((project) => ListTile(
-                    title: Text(project.title),
-                    subtitle: Text(project.languages.join(', ')),
-                    onTap: () {
-                      // Show project details
-                      showDialog(
-                        context: context,
-                        builder: (context) => AlertDialog(
-                          title: Text(project.title),
-                          content: SingleChildScrollView(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              mainAxisSize: MainAxisSize.min,
-                              children: [
-                                Text('Description: ${project.description}'),
-                                SizedBox(height: 8),
-                                Text(
-                                    'Languages: ${project.languages.join(", ")}'),
-                                SizedBox(height: 8),
-                                InkWell(
-                                  child: Text(
-                                    'GitHub: ${project.githubLink}',
-                                    style: TextStyle(color: Colors.blue),
-                                  ),
-                                  onTap: () {
-                                    // Launch URL
-                                  },
+              .map(
+                (project) => ListTile(
+                  title: Text(project.title),
+                  subtitle: Text(project.languages.join(', ')),
+                  onTap: () {
+                    showDialog(
+                      context: context,
+                      builder: (context) => AlertDialog(
+                        title: Text(project.title),
+                        content: SingleChildScrollView(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              Text('Description: ${project.description}'),
+                              SizedBox(height: 8),
+                              Text(
+                                'Languages: ${project.languages.join(", ")}',
+                              ),
+                              SizedBox(height: 8),
+                              InkWell(
+                                child: Text(
+                                  'GitHub: ${project.githubLink}',
+                                  style: TextStyle(color: Colors.blue),
                                 ),
-                              ],
-                            ),
+                                onTap: () {},
+                              ),
+                            ],
                           ),
-                          actions: [
-                            TextButton(
-                              child: Text('Close'),
-                              onPressed: () {
-                                Navigator.of(context).pop();
-                              },
-                            ),
-                          ],
                         ),
-                      );
-                    },
-                  ))
+                        actions: [
+                          TextButton(
+                            child: Text('Close'),
+                            onPressed: () {
+                              Navigator.of(context).pop();
+                            },
+                          ),
+                        ],
+                      ),
+                    );
+                  },
+                ),
+              )
               .toList(),
         ),
       ],
@@ -111,10 +109,7 @@ class SectionTitle extends StatelessWidget {
       padding: const EdgeInsets.fromLTRB(16.0, 16.0, 16.0, 8.0),
       child: Text(
         title,
-        style: TextStyle(
-          fontSize: 20,
-          fontWeight: FontWeight.bold,
-        ),
+        style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
       ),
     );
   }

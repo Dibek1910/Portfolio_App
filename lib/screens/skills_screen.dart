@@ -9,20 +9,21 @@ class SkillsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Skills'),
-      ),
+      appBar: AppBar(title: Text('Skills')),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Wrap(
           spacing: 8.0,
           runSpacing: 8.0,
           children: data.skills
-              .map((skill) => Chip(
-                    label: Text(skill),
-                    backgroundColor:
-                        Theme.of(context).primaryColor.withOpacity(0.1),
-                  ))
+              .map(
+                (skill) => Chip(
+                  label: Text(skill),
+                  backgroundColor: Theme.of(
+                    context,
+                  ).primaryColor.withOpacity(0.1),
+                ),
+              )
               .toList(),
         ),
       ),

@@ -9,9 +9,7 @@ class CertificationsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Certifications'),
-      ),
+      appBar: AppBar(title: Text('Certifications')),
       body: ListView.builder(
         itemCount: data.certifications.length,
         itemBuilder: (context, index) {
@@ -22,10 +20,7 @@ class CertificationsScreen extends StatelessWidget {
               title: Text(cert.title),
               subtitle: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(cert.organization),
-                  Text(cert.date),
-                ],
+                children: [Text(cert.organization), Text(cert.date)],
               ),
             ),
           );

@@ -9,9 +9,7 @@ class AboutScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('About'),
-      ),
+      appBar: AppBar(title: Text('About')),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(16.0),
@@ -23,10 +21,7 @@ class AboutScreen extends StatelessWidget {
                 style: Theme.of(context).textTheme.headlineSmall,
               ),
               SizedBox(height: 16),
-              Text(
-                data.aboutMe,
-                style: Theme.of(context).textTheme.bodyMedium,
-              ),
+              Text(data.aboutMe, style: Theme.of(context).textTheme.bodyMedium),
               SizedBox(height: 24),
               Image.asset('images/1000154861.JPEG'),
             ],

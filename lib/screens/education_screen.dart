@@ -9,9 +9,7 @@ class EducationScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Education'),
-      ),
+      appBar: AppBar(title: Text('Education')),
       body: ListView.builder(
         itemCount: data.education.length,
         itemBuilder: (context, index) {

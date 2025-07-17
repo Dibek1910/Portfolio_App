@@ -14,7 +14,6 @@ class SocialMediaScreen extends StatelessWidget {
       'url': 'https://www.linkedin.com/in/dibek-todi/',
       'icon': FontAwesomeIcons.linkedin,
     },
-    // Add more social media links as needed
   ];
 
   SocialMediaScreen({Key? key}) : super(key: key);
@@ -22,9 +21,7 @@ class SocialMediaScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Social Media'),
-      ),
+      appBar: AppBar(title: Text('Social Media')),
       body: ListView.builder(
         itemCount: socialMediaLinks.length,
         itemBuilder: (context, index) {
